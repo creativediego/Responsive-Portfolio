@@ -1,0 +1,119 @@
+html {
+    font-size: 17px;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-family: 'Saira Extra Condensed', sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-color: #343a40;
+}
+
+.accent {
+    color: #3B5998;
+}
+
+.profile {
+    border-radius: 50%;
+    max-width: 80%;
+    margin: auto;
+    display: none;
+}
+
+
+/* Will be used later for footer.
+.wrapper {
+    position: relative;
+    min-height: 100%vh;
+}
+*/
+
+main {
+    padding: 2rem;
+}
+
+section {
+    margin: 2rem 0;
+}
+
+a:link {
+    color: white;
+}
+
+main a {
+    color: #343a40;
+    margin-right: 1rem;
+}
+
+main a:hover {
+    color: #3B5998;
+    text-decoration: none;
+}
+
+#side-nav {
+    background-color: #3B5998;
+}
+
+.jumbotron {
+    margin: -4rem -4rem 2rem -5rem;
+    padding: 3rem 5rem;
+}
+
+.placeholder {
+    padding: 5rem;
+    margin: 1rem 0;
+    background-color: gray;
+}
+
+.card {
+    margin: 1rem;
+}
+
+@media (min-width: 992px) {
+    h1 {
+        font-size: 4rem;
+    }
+    body {
+        padding-top: 0;
+        padding-left: 17rem;
+    }
+    main {
+        padding-top: 3rem;
+    }
+    .profile {
+        display: block;
+    }
+    #side-nav {
+        height: 100vh;
+        left: 0;
+        top: 0;
+        width: 15rem;
+        position: fixed;
+    }
+    .brand {
+        display: none;
+    }
+    .navbar-collapse {
+        flex-grow: inherit;
+    }
+    .navbar-expand-lg {
+        flex-flow: column;
+    }
+    nav {
+        padding-top: 5rem !important;
+    }
+    .navbar-brand {
+        margin-right: 0;
+    }
+    .jumbotron {
+        margin: -4rem -4rem 2rem -6rem;
+        padding-left: 6rem;
+    }
+}
