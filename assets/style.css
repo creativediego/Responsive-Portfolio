@@ -43,10 +43,6 @@ section {
     margin: 2rem 0;
 }
 
-a:link {
-    color: white;
-}
-
 main a {
     color: #343a40;
     margin-right: 1rem;
